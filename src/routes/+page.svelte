@@ -26,17 +26,6 @@
 </section>
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
 
 	.welcome {
 		display: block;
@@ -44,5 +33,19 @@
 		width: 100%;
 		height: 0;
 		padding: 0 0 calc(100% * 495 / 2048) 0;
+	}
+
+@import url("https://unpkg.com/fluent-svelte/theme.css");
+	/* Some base styles to get things looking right. */
+	:global(body) {
+		background-color: var(--fds-solid-background-base);
+		color: var(--fds-text-primary);
+	}
+	section {
+		display: flex;
+		flex-direction: column;
+	@@ -31,4 +38,4 @@
+	h1 {
+		width: 100%;
 	}
 </style>
