@@ -44,6 +44,7 @@
 	section {
 		display: flex;
 		flex-direction: column;
+}
 
 	h1 {
 		width: 100%;
