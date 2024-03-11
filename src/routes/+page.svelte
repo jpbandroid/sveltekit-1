@@ -1,8 +1,6 @@
 <script>
 	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
-	import { Button, Checkbox, TextBlock } from "fluent-svelte";
+	import * as Fluent from "fluent-svelte";
 </script>
 
 <svelte:head>
@@ -22,8 +20,8 @@
 
 	<Counter />
 
-	<Button>Click</Button>
-	<Checkbox>Check</Checkbox>
+	<Fluent.Button>Click</Fluent.Button>
+	<Fluent.Checkbox>Check</Fluent.Checkbox>
 </section>
 
 <style>
@@ -45,13 +43,5 @@
 		width: 100%;
 		height: 0;
 		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
 	}
 </style>
