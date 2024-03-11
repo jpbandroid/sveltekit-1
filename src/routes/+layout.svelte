@@ -4,6 +4,7 @@
 	import { webVitals } from '$lib/vitals';
 	import Header from './Header.svelte';
 	import './styles.css';
+	import { Button, Checkbox } from "fluent-svelte";
 
 	/** @type {import('./$types').LayoutServerData} */
 	export let data;
@@ -25,7 +26,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>Hello world!</p>
 	</footer>
 </div>
 
