@@ -1,6 +1,7 @@
 <script>
 	import Counter from './Counter.svelte';
 	import * as Fluent from "fluent-svelte";
+	import "fluent-svelte/theme.css";
 </script>
 
 <svelte:head>
